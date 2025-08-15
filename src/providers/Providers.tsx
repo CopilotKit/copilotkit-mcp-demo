@@ -32,6 +32,7 @@ export default function Providers({ children }: { children: React.ReactNode }) {
       <QueryClientProvider client={queryClient}>
         <CopilotKit
           publicApiKey={process.env.NEXT_PUBLIC_COPILOT_CLOUD_API_KEY}
+          showDevConsole={false}
         >
           <McpServerManager configs={config} />
           <ToolRenderer />

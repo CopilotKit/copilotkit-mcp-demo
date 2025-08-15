@@ -37,7 +37,28 @@ export default function Canvas() {
             >
               <Settings className="w-4 h-4" />
               <span className="font-medium">MCP Servers</span>
+                           
+
             </button>
+            <a 
+              href="https://github.com/CopilotKit/copilotkit-mcp-demo"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded-full shadow-lg flex items-center gap-2"
+            >
+              <Settings className="w-4 h-4" />
+              <span className="font-medium">GitHub</span>
+            </a>
+            <a 
+              href="https://docs.copilotkit.ai/direct-to-llm/guides/model-context-protocol"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded-full shadow-lg flex items-center gap-2"
+            >
+              <Settings className="w-4 h-4" />
+              <span className="font-medium">Docs</span>
+            </a>
+            
           </div>
 
           <div className="flex-1 flex gap-5 p-5 overflow-hidden">
